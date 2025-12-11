@@ -4,7 +4,6 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private Patrolling _patrolling;
     [SerializeField] private Following _following;
-    [SerializeField] private Attacker _attacker;
     [SerializeField] private Died _died;
     [SerializeField] private int _health;
     [SerializeField] private float _speed;
